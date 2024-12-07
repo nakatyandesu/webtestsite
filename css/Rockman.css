@@ -1,0 +1,254 @@
+body{
+    background-color:cadetblue;
+}
+/*ヘッダー*/
+header{
+    color:#ffffff;
+    background-color:aqua;
+}
+
+header .row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    margin:0 auto;
+    max-width:1280px;
+    padding:20px 0;
+}
+
+header .logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+header nav ul{
+    display:flex;
+}
+
+header nav ul li{
+    margin-left:50px;
+}
+
+header nav ul li a{
+    transition:0.2s;
+}
+
+header nav ul li a:hover{
+    transition:0.2s;
+    opacity:0.6;
+}
+
+/*メインビジュアル*/
+
+.main_visual{
+    background-image:url('../image/exe6.jpg');
+    background-size:cover;
+    background-position:center top;
+    position:relative;
+}
+
+.main_visual .container{
+    width:90%;
+    margin:0 auto;
+    max-width:1280px;
+    height:640px;
+    position:relative;
+}
+
+    .main_visual .title {
+        position: absolute;
+        bottom:400px;
+    left:200px;
+        
+    }
+
+    .main_visual h1 {
+        font-size: 70px;
+        font-weight: bold;
+        color: black;
+        /* margin-bottom: 24px;*/
+        
+    }
+
+    /*セクション①*/
+
+    .section1{
+        color:black;
+        padding:10px 0;
+    }
+
+        .section1 .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section1 .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1280px;
+        }
+
+        .section1 .sub_title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 0.1;
+        }
+
+        .section1 h2 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height:0.1;
+        }
+
+        /*セクション2*/
+
+.section2 {
+    color: black;
+    padding: 20px 0;
+}
+
+    .section2 .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section2 .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+.section2 .text {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section2 .col {
+    width: 48%;
+}
+    .section2 img {
+        border-radius: 20px;
+    }
+
+    /*セクション③*/
+.section3 {
+    color: black;
+    padding: 20px 0;
+}
+
+    .section3 .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section3 .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    .section3 .text {
+        font-size: 18px;
+        line-height: 1.8;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section3 .col {
+        width: 48%;
+    }
+
+    .section3 img {
+        border-radius: 20px;
+    }
+
+    /*セクション④*/
+.section4 {
+    color: black;
+    padding: 10px 0;
+}
+
+    .section4 .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4 .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    .section4 .sub_title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        line-height: 0.1;
+    }
+
+    .section4 h2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 0.1;
+    }
+
+    /*セクション⑤*/
+.section5 {
+    color: black;
+    padding: 10px 0;
+}
+
+    .section5 .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+
+    .section5 .row{
+        display:flex;
+        justify-content:center;
+    }
+
+    .section5 .text {
+        font-size: 18px;
+        line-height: 1.8;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+.section5 .col {
+    width: 30%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+    .section5 h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 0.1;
+        text-align: center;
+    }
+
+.section5 img{
+    height:300px;
+}
+/*フッター*/
+footer{
+    background-color:aqua;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    
+}
+
+    footer .container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 3px;
+    }

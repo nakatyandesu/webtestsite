@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display-swap");
+body{
+    background:linear-gradient(to right,rgb(36,64,109),rgb(81,34,102));
+}
+section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px 100px;
+    color:white;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.main-title{
+    font-size:4rem;
+    margin-bottom:50px;
+}
+.content{
+    width:1150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.content .image{
+    position:relative;
+    width:600px;
+    height:400px;
+    overflow:hidden;
+}
+.content .image img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+    z-index:10;
+}
+    .content .text-box {
+        z-index: 20;
+        background: rgba(255,255,255,0.1);
+        padding: 40px;
+        max-width: 400px;
+        transform: translate(-80px,50px);
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border:1px solid rgba(255,255,255,0.1);
+    }
+    .content .text-box h3{
+        font-size:2rem;
+        margin-bottom:10px;
+    }
+.media-icons {
+    margin-top: 100px;
+}
+    .media-icons a{
+        color:white;
+        font-size:2rem;
+        margin:60px;
+    }
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .col{
+        width:45%;
+        
+    }
+    .sec-02 img{
+        width:100%;
+        border-radius:10px;
+        height:100%;
+    }
+    .sec-02 h3{
+        font-size:2rem;
+        margin-bottom:10px;
+    }
+    .sec-02{
+        margin-bottom:100px;
+    }
+ .media-info{
+     width:400px;
+     margin-left:50px;
+ }
+ .media-info li{
+     list-style:none;
+     font-size:1.4rem;
+ }
+ .media-info li a{
+     color:white;
+     text-decoration:none;
+ }
+ .media-info li:not(:last-child){
+     margin-bottom:50px;
+ }
+ .media-info li:nth-child(1),
+ .media-info li:nth-child(5){
+     padding-left:100px;
+ }
+    .media-info li:nth-child(2),
+    .media-info li:nth-child(4) {
+        padding-left: 50px;
+    }
+    .sec-03{
+        margin-bottom:100px;
+    }

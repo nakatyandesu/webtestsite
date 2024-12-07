@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(0, 148, 255),rgb(178, 0, 255));
+    overflow: hidden;
+    position: relative;
+    font-size: 1.2rem;
+    font-family: "Ubuntu", serif;
+    color:white;
+}
+nav{
+    width:80%;
+    display:flex;
+    align-items:center;
+    margin:20px auto;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    z-index:1;
+    color:black;
+}
+.logo img{
+    margin-right:10px;
+    width:60px;
+}
+.logo h2{
+    font-size:30px;
+    font-weight:700;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul{
+    
+}
+.nav-links ul li{
+    display:inline-block;
+    margin-left:20px;
+    list-style:none;
+    font-size:18px;
+
+}
+.nav-links ul li a{
+    text-decoration:none;
+    color:white;
+    transition:.5s;
+}
+    .nav-links ul li a:hover{
+        color:orange;
+    }
+.infomation{
+    width:1000px;
+    height:1000px;
+    position:absolute;
+    top:50%;
+    left:-10%;
+    transform:translateY(-50%);
+}
+#circle {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    border-radius:50%;
+ 
+    transform:rotate(0deg);
+    transition:1.2s;
+}
+.feature{
+    display:flex;
+    align-items:center;
+    position:absolute;
+   
+}
+.feature img{
+    width:60px;
+    margin-right:10px;
+}
+.feature h2{
+    font-size:20px;
+}
+.pc{
+    position:absolute;
+    z-index:1;
+    top:400px;
+    left:380px;
+    width:300px;
+}
+.one{
+    top:470px;
+    right:70px;
+}
+.two{
+    top:720px;
+    right:400px;
+    transform:rotate(90deg);
+}
+.three{
+    top:490px;
+    left:90px;
+    transform:rotate(180deg);
+}
+.four{
+    bottom:720px;
+    right:400px;
+    transform:rotate(-90deg);
+}
+.overlay{
+    width:0;
+    height:0;
+    border-top:520px solid white;
+    border-right:520px solid transparent;
+    border-bottom:520px solid white;
+    border-left:520px solid white;
+    position:absolute;
+    z-index:1;
+}
+.btn{
+    position:absolute;
+    text-align:center;
+    right:20%;
+    top:40%;
+}
+.btn img{
+    width:80px;
+}
+.btn h2{
+    font-size:30px;
+    font-weight:700;
+}
+#upBtn{
+    cursor:pointer;
+}
+#downBtn{
+    cursor:pointer;
+    transform:rotate(180deg);
+}

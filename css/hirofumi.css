@@ -1,0 +1,106 @@
+body{
+    background-color:aquamarine;
+}
+header .container{
+    width:90%;
+    max-width:1280px;
+    margin:0 auto;
+    background-image:url(../image/pokemon01.jfif);
+    background-size:cover;
+    background-position:center;
+    height:340px;
+    
+}
+
+header .col{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 10px;
+}
+
+header ul li{
+    display:inline-block;
+    list-style:none;
+    
+}
+
+    header ul li a {
+        transition: 0.2s;
+    }
+
+    header ul li a:hover{
+        transition:0.2s;
+        opacity:0.6;
+    }
+
+    header h1{
+        font-size:50px;
+        text-align:center;
+        margin-top:90px;
+    }
+main .container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+    main .row{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+main .col {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+    main img{
+       width:480px;
+       height:480px;
+    }
+    main .row.reverse{
+        flex-direction:row-reverse;
+        
+    }
+    .row2{
+        display:flex;
+        justify-content:center;
+        padding-top:200px;
+    }
+.col2 {
+    margin-right:5px;
+    margin-left:5px;
+}
+    .col2 h2{
+        text-align:center;
+    }
+    .col2 .text{
+        text-align:center;
+    }
+
+@media screen and (max-width:767px){
+    .row{
+        flex-wrap:wrap;
+        gap:24px 0;
+        margin-bottom:48px;
+    }
+    .col{
+        width:100%;
+    }
+    .h2{
+        font-size:24px;
+        margin-bottom:19px;
+    }
+    .row2 {
+        flex-wrap: wrap;
+        gap: 24px 0;
+        margin-bottom: 48px;
+    }
+
+    .col2 {
+        width:100%;
+    }
+    .text{
+        font-size:24px;
+    }
+}
+
